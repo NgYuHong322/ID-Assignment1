@@ -1,0 +1,21 @@
+.banner{
+    padding: 15px;
+    width: max-content;
+    margin: auto;
+
+}
+
+#img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+<marquee behavior="scroll" direction="left" scrollamount="15" class="banner">
+            <img src="/Images/GEM Stage1.png">
+            <img src="/Images/GEM Stage2.png">
+            <img src="/Images/GEM Stage4.png">
+            <img src="/Images/GEM Stage5.png">
+        </marquee>
