@@ -1,21 +1,46 @@
-.banner{
-    padding: 15px;
-    width: max-content;
-    margin: auto;
-
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: rgb(100, 14, 181);
 }
 
-#img {
-    float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: contain;
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    font-size: 23px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
 }
 
+.colour a{
+    color: white;
+}
 
-<marquee behavior="scroll" direction="left" scrollamount="15" class="banner">
-            <img src="/Images/GEM Stage1.png">
-            <img src="/Images/GEM Stage2.png">
-            <img src="/Images/GEM Stage4.png">
-            <img src="/Images/GEM Stage5.png">
-        </marquee>
+.logos img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+marquee{
+    border-style: solid;
+    border-color: rgb(100, 14, 181);
+    border-radius: 20px;
+    border-width: 5px;
+    background-color: rgb(212, 238, 244);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.banner img{
+    width: 400px; 
+    height: 350px; 
+    padding: 5px;
+    border-radius: 20px;
+}
+

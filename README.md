@@ -12,3 +12,4 @@ TikTok: https://www.tiktok.com/@gemdzq
 YouTube: https://www.youtube.com/@gem0816/featured
 Spotify: https://open.spotify.com/artist/7aRC4L63dBn3CiLDuWaLSI
 
+photos from Instagram
