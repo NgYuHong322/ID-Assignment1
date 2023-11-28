@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
 h1{
     display: flex;
     justify-content: center;
@@ -20,27 +25,18 @@ nav{
 }
 
 .logos img{
-    
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
 }
 
-marquee{
-    border-style: solid;
-    border-color: rgb(100, 14, 181);
-    border-radius: 20px;
-    border-width: 5px;
-    background-color: rgb(212, 238, 244);
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
+.banner {
+    display: flex;
+    overflow: hidden;
 }
 
-.banner img{
-    width: 400px; 
-    height: 350px; 
-    padding: 5px;
-    border-radius: 20px;
+.banner img {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
 }
-
