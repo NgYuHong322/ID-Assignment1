@@ -27,6 +27,10 @@ nav {
     z-index: 1000;
 }
 
+.colour-hover {
+    background-color: rgb(146, 10, 139);
+}
+
 .colour a {
     color: white;
 }
@@ -91,3 +95,21 @@ footer {
     padding-top: 5%;
 }
 
+.storeitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.storeitems img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; 
+}
+
+.storeitems button,
+.storeitems p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; 
+}

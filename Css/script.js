@@ -20,6 +20,17 @@ $(document).ready(function() {
     scrollBanner();
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    var navBar = document.querySelector('.colour');
+
+    navBar.addEventListener('mouseover', function() {
+        navBar.classList.add('colour-hover');
+    });
+
+    navBar.addEventListener('mouseout', function() {
+        navBar.classList.remove('colour-hover');
+    });
+});
 
 
 
